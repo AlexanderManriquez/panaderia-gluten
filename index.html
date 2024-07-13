@@ -1,13 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panadería Gluten</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- CSS Propio -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo-pan.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Gluten
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nuestros Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class=" container heroSection">
+        <div class="bienvenida mt-2">
+            <h1 class="text-center titulo pt-4">Panadería Gluten</h1>
+            <p class="texto text-center centrado mt-5 py-5">¡Bienvenidos a Gluten! En nuestra panadería, la calidad y
+                frescura son nuestra prioridad. Cada día, horneamos con los mejores ingredientes para ofrecerte
+                productos irresistibles que te encantarán. ¡Descubre la diferencia de saborear lo auténtico y fresco,
+                directamente del horno a tu mesa!</p>
+            <div>
+                <p class="texto text-center centrado mt-5 py-5">"Del horno a tu mesa, la frescura que te enamora."</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="panes">
+            <div class="fondo-titulo">
+                <h1 class="titulo text-center mt-3">Panes</h1>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card my-2">
+                            <img src="./assets/img/pan-baguette.jpg" class="card-img-top" alt="Pan Baguette">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Baguette</h5>
+                                <p class="card-text">Crujiente por fuera, tierno por dentro. Perfecto para acompañar con
+                                    cualquier relleno.</p>
+                                    <a href="#" class="boton btn">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card my-2">
+                            <img src="./assets/img/pan-blanco.jpg" class="card-img-top" alt="Pan Baguette">
+                            <div class="card-body  text-center">
+                                <h5 class="card-title">Pan blanco</h5>
+                                <p class="card-text">Suave y esponjoso, perfecto para sándwiches, tostadas y acompañar
+                                    tus comidas favoritas.</p>
+
+                                    <a href="#" class="boton btn">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card my-2">
+                            <img src="./assets/img/pan-multigrano.jpg" class="card-img-top" alt="Pan Baguette">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Pan multigrano</h5>
+                                <p class="card-text">Rico en fibra y sabor, con masa madre y nutritivos granos y
+                                    semillas.</p>
+                                    <a href="#" class="boton btn">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="fondo-titulo">
+            <h1 class="titulo text-center mt-3">Dulces</h1>
+        </div>
+
+        <section class="dulces">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card my-2">
+                            <img src="./assets/img/muffins-arandano.jpg" class="card-img-top" alt="Pan Baguette">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Muffins</h5>
+                                <p class="card-text">Esponjoso y delicioso, disponible en variedad de sabores.</p>
+                                <a href="#" class="boton btn">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card my-2">
+                            <img src="./assets/img/croissant-variedades.jpg" class="card-img-top" alt="Pan Baguette">
+                            <div class="card-body text-center">
+                                <h5 class="card-title ">Croissant</h5>
+                                <p class="card-text">Hojaldre dorado y mantecoso, con un toque dulce irresistible.</p>
+                                <a href="#" class="boton btn">Ver más</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card my-2">
+                            <img src="./assets/img/galletas-variedades.jpg" class="card-img-top" alt="Pan Baguette">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Galletas</h5>
+                                <p class="card-text">Crujientes y sabrosas, ideales para cualquier momento
+                                    del día.</p>
+                                    <a href="#" class="boton btn">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-5 pb-1">
+        <p class="text-center">GLUTEN 2024</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

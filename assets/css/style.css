@@ -1,0 +1,84 @@
+/* Paleta colores: bd6c00, da9d00, ebd48c, 4162b6, 20294d */
+
+body{
+    background-color: #bd6c00;
+    color: #20294d;
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* Header */
+.bienvenida {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/panaderia-fondo.jpg");
+    background-repeat: no-repeat;
+    background-repeat: cover;
+}
+
+.titulo{
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.centrado {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.texto {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
+
+/* Cards */
+.card {
+    background-color: #da9d00;
+}
+
+.card-img-top{
+    width: 95%;
+    height: 250px;
+    margin: 2% auto;
+}
+
+.boton {
+    background-color: #4162b6;
+    color: #ebd48c;
+}
+
+footer {
+    background-color: #da9d00;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .centrado {
+        width: 80%;
+    }
+
+    .texto {
+        font-size: 1rem;
+    }
+
+    .bienvenida {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .centrado {
+        width: 90%;
+    }
+
+    .texto {
+        font-size: 0.9rem;
+    }
+}
